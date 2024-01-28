@@ -2,8 +2,9 @@
 name = "clockodo-cli"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "Simple CLI tool to control Clockodo's time-tracking stopwatch"
+repository = "https://github.com/zortax/clockodo-cli"
+license = "MIT"
 
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
